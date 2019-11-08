@@ -109,7 +109,7 @@ class ChangerWidget(tk.Toplevel):
         self.removeButton.pack(side='left')
 
 if __name__ == '__main__':
-root = tk.Tk()
-root.withdraw()
-app = Controller(root)
-root.mainloop()
+	root = tk.Tk()
+	root.withdraw()
+	app = Controller(root)
+	root.mainloop()
